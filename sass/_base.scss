@@ -1,0 +1,30 @@
+// COLOR VARIABLE
+$strong-cyan: hsl(171, 66%, 44%);
+$grayish-blue: hsl(201, 11%, 66%);
+$light-blue: hsl(233, 100%, 69%);
+$dark-grayish-blue: hsl(210, 10%, 33%);
+$bp-small: 700px;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    line-height: 1.5;
+    color: $grayish-blue;
+    overflow-x: hidden;
+}

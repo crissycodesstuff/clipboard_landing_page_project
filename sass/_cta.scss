@@ -1,0 +1,11 @@
+.cta {
+    display: block;
+    text-align: center;
+    @media screen and (max-width: $bp-small) {
+        .btn {
+            display: flex;
+            flex-direction: column;
+            margin: 2rem auto;
+        }
+    }
+}

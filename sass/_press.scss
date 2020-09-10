@@ -1,0 +1,19 @@
+.press {
+    display: flex;
+    padding: 0 4rem;
+    align-items: center;
+    justify-content: center;
+    img {
+        padding: 2rem;
+    }
+    @media screen and (max-width: $bp-small) {
+        & {
+            display: flex;
+            flex-direction: column;
+            padding: 0 5rem;
+            img {
+                padding: 2rem;
+            }
+        }
+    }
+}
